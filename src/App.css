@@ -1,0 +1,17 @@
+dfn {
+    font-style: italic;
+    color: #007acc;
+    border-bottom: 1px dotted #007acc;
+    cursor: help;
+  }
+  
+  dfn:hover {
+    color: #005fa3;
+    border-bottom: 1px solid #005fa3;
+  }
+  
+  dfn::after {
+    content: " (hover for info)";
+    font-size: 0.85em;
+    color: #555;
+  }
