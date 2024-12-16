@@ -2,29 +2,30 @@ import React from 'react'
 
 export default function WebsitePlain() {
     return (
-        <div style={{ height: '1500px' }}>
+        <div style={{ margin: '60px 0px' }}>
             <div className="container" style={{ color: 'rgb(47, 28, 106)', textAlign: 'center' }}>
                 <h1>Find the perfect website builder plan for you</h1>
                 <p style={{ margin: '30px 0px' }}>Get your idea online risk-free with a 30-day money-back guarantee.</p>
-                <div style={{ display: 'flex', justifyContent: 'center', margin: '25px 0px' }}>
+                {/* <div style={{ display: 'flex', justifyContent: 'center', margin: '25px 0px' }}>
                     <div className="form-check">
                         <input className="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" />
                     </div>
                     <div className="form-check">
                         <input className="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked />
                     </div>
-                </div>
+                </div> */}
                 <div style={{ display: 'flex', justifyContent: 'space-evenly', margin: '0px 150px', alignItems: 'flex-end', textAlign: 'justify', }}>
-                    <div style={{ border: '2px solid #d5d5d5', width: '375px', height: '1180px', padding: '35px 19px', borderRadius: '20px' }}>
+                    <div style={{ border: '2px solid #d5d5d5',  padding: '25px 15px', borderRadius: '20px' }}>
                         <h3>Premium Website Builder</h3>
-                        <p>Get the essentials you need to create a website.</p><br />
+                        <p style={{margin:'0px'}}>Get the essentials you need to create a</p>
+                        <p style={{margin:'0px'}}>website.</p><br />
                         <span className='d-flex'>
                             <p style={{ textDecoration: 'line-through' }}>Rs.1,999</p>
                             <h5 style={{ marginLeft: '15px', backgroundColor: 'chartreuse', width: '61px', borderRadius: '6px' }}> 75%of</h5>
                         </span><br />
                         <span style={{ display: 'flex', alignItems: 'baseline' }}>Rs. <h2 style={{ fontSize: '45px' }}><b>529</b></h2>/mo</span>
                         <h5 style={{ color: '#2323de' }}>+3 months free</h5>
-                        <button type="button" style={{ width: '323px', height: '45px', margin: '5px', borderRadius: '11px' }} >Choose plan</button>
+                        <button type="button" style={{ padding:'8px 115px', margin: '5px', borderRadius: '11px' }} >Choose plan</button>
                         <p>Rs.1,099/mo when you renew</p>
                         <hr /><br />
                         <h3>Top features</h3>
@@ -55,23 +56,22 @@ export default function WebsitePlain() {
                             <p style={{ display: 'flex', margin: '0px' }}><img src="icons8-cross-48.png" width={'25px'} alt="" /><a href="/" style={{ color: 'rgb(47, 28, 106)' }}><dfn title="The payment methods available for your store depent on where you,re selling your location, currency, and who you're selling to.">20+ payment methods</dfn></a></p>
                         </div>
                     </div>
-
-
-
-                    <div style={{ border: '2px solid #0822ff', width: '375px', height: '1220px', textAlign: 'justify', borderRadius: '20px' }}>
+                    <div style={{ border: '2px solid #0822ff', textAlign: 'justify', borderRadius: '20px' }}>
                         <div>
-                            <h3 style={{ textAlign: 'center', color: 'white', height: '38px', backgroundColor: '#7131e7', borderRadius: '18px 18px 0px 0px' }}><b>MOST POPULAR</b></h3>
+                            <h3 style={{ textAlign: 'center', color: 'white', height: '38px', margin: '0px', backgroundColor: '#7131e7', borderRadius: '18px 18px 0px 0px' }}><b>MOST POPULAR</b></h3>
                         </div>
                         <div style={{ padding: '25px 19px' }}>
                             <h3>Business Website Builder</h3>
-                            <p>Grow with advanced AI tools and eCommerce features</p><br />
+                            <p style={{  margin: '0px' }} >Grow with advanced AI tools and eCommerce </p>
+                            <p style={{ margin: '0px' }}>features</p>
+                            <br />
                             <span className='d-flex'>
                                 <p style={{ textDecoration: 'line-through' }}>Rs.2,499</p>
                                 <h5 style={{ marginLeft: '15px', backgroundColor: 'chartreuse', width: '61px', borderRadius: '6px' }}> 67%of</h5>
                             </span><br />
                             <span style={{ display: 'flex', alignItems: 'baseline' }}>Rs. <h2 style={{ fontSize: '45px' }}><b>829</b></h2>/mo</span>
                             <h5 style={{ color: '#2323de' }}>+3 months free</h5>
-                            <button type="button" style={{ width: '323px', height: '45px', margin: '5px', borderRadius: '11px', backgroundColor: '#323030', color: 'white' }} >Choose plan</button>
+                            <button type="button" style={{  padding:'8px 115px', margin: '5px', borderRadius: '11px', backgroundColor: '#323030', color: 'white' }} >Choose plan</button>
                             <p>Rs.1,899/mo when you renew</p>
                             <hr /><br />
                             <h3>Top features</h3>
